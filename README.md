@@ -117,3 +117,6 @@ Register with any email except `taken@smartcoco.ph` to simulate a new account (t
 
 - All data is in memory and resets on refresh.
 - To connect a real backend, replace the methods in `lib/services/data_store.dart` and `lib/services/auth_controller.dart` with API calls; the screens already handle loading, empty, and error states.
+
+## Repository
+- https://github.com/arnelabian-sys/smartcoco.git
