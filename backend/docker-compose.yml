@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: smartcoco-db
+    environment:
+      POSTGRES_DB: smartcoco
+      POSTGRES_USER: smartcoco
+      POSTGRES_PASSWORD: smartcoco
+    ports:
+      - "5432:5432"
+    volumes:
+      - smartcoco_pgdata:/var/lib/postgresql/data
+
+volumes:
+  smartcoco_pgdata:

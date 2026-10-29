@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+
+# Local database / uploads
+*.db
+*.sqlite3
+uploads/
+
+# Editors
+.vscode/
+.idea/
